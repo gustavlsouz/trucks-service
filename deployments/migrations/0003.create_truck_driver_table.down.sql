@@ -1,0 +1,1 @@
+drop table truck_driver;
