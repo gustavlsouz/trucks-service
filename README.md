@@ -203,7 +203,7 @@ curl --location 'http://localhost:8080/api/truck/relation' \
     "driverId": "dcb03fd6-fb66-44b7-857f-9f598f56f570",
     "truckId": "1f79d093-62f0-4e9b-81e7-d635d0357ed0",
     "id": "aa46547a-9dd4-4328-89bb-ca1f5e84f18c",
-    "updatedAt": "2024-07-11T12:06:13.153168091-03:00"
+    "createdAt": "2024-07-11T12:06:13.153168091-03:00"
 }
 ```
 
@@ -222,13 +222,13 @@ curl --location 'http://localhost:8080/api/truck/relation' \
         "driverId": "7ba22e91-d3c3-4423-8902-fd7c284c079a",
         "truckId": "4873700e-956f-4f28-bf52-06fd16622779",
         "id": "267a60f2-69a2-4136-8c79-f47a2c2cbc1a",
-        "updatedAt": "2024-07-11T11:50:09.049207Z"
+        "createdAt": "2024-07-11T11:50:09.049207Z"
     },
     {
         "driverId": "dcb03fd6-fb66-44b7-857f-9f598f56f570",
         "truckId": "1f79d093-62f0-4e9b-81e7-d635d0357ed0",
         "id": "aa46547a-9dd4-4328-89bb-ca1f5e84f18c",
-        "updatedAt": "2024-07-11T12:06:13.153168Z"
+        "createdAt": "2024-07-11T12:06:13.153168Z"
     }
 ]
 ```
@@ -251,7 +251,7 @@ curl --location --request PUT 'http://localhost:8080/api/truck/relation' \
 {
     "driverId": "64596e48-fa08-4550-bd79-9251eaa54b02",
     "id": "461616e6-b01f-4940-8ce3-f5ef3cef8428",
-    "updatedAt": "0001-01-01T00:00:00Z"
+    "createdAt": "2024-07-05T22:43:48.487Z"
 }
 ```
 

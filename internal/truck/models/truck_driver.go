@@ -11,5 +11,5 @@ type TruckDriver struct {
 	DriverId  string    `json:"driverId,omitempty"`
 	TruckId   string    `json:"truckId,omitempty"`
 	Id        string    `json:"id,omitempty"`
-	CreatedAt time.Time `json:"updatedAt,omitempty"`
+	CreatedAt time.Time `json:"createdAt,omitempty"`
 }
